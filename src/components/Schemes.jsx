@@ -110,7 +110,7 @@ export default function Schemes() {
 										<span className="text-gray-400 text-base mb-4 -mt-2 text-center">interest rate</span>
 										{/* Modern SVG design instead of image */}
 										<div className="flex justify-center mb-4">
-											<Image src="/file.png" alt="Gold icon" width={40} height={40} className="mx-auto" />
+											<Image src="/gold-bar.png" alt="Gold icon" width={40} height={40} className="mx-auto" />
 										</div>
 										<ul className="text-gray-600 text-base mb-6 text-center space-y-1">
 											{scheme.features.map((f) => (
@@ -118,7 +118,7 @@ export default function Schemes() {
 											))}
 										</ul>
 										<div className="flex justify-center w-full">
-											<a href="#contact" className="border border-orange-500 text-orange-500 font-bold py-2 px-8 rounded-full transition hover:bg-orange-50 text-center" style={{ boxShadow: "0 2px 8px 0 rgba(245,158,66,0.08)" }}>
+											<a href="https://wa.me/917745932004" className="border border-orange-500 text-orange-500 font-bold py-2 px-8 rounded-full transition hover:bg-orange-50 text-center" style={{ boxShadow: "0 2px 8px 0 rgba(245,158,66,0.08)" }}>
 												Get Now
 											</a>
 										</div>
@@ -175,7 +175,7 @@ export default function Schemes() {
 							</span>
 							{/* Modern SVG design instead of image */}
 							<div className="flex justify-center mb-4">
-								<Image src="/file.png" alt="Gold icon" width={40} height={40} className="mx-auto" />
+								<Image src="/gold-bar.png" alt="Gold icon" width={40} height={40} className="mx-auto" />
 							</div>
 							<ul className="text-gray-600 text-base mb-6 text-center space-y-1">
 								{scheme.features.map((f) => (
@@ -183,7 +183,7 @@ export default function Schemes() {
 								))}
 							</ul>
 							<a
-								href="#contact"
+								href="https://wa.me/917745932004"
 								className="border border-orange-500 text-orange-500 font-bold py-2 px-8 rounded-full transition hover:bg-orange-50"
 								style={{
 									boxShadow: "0 2px 8px 0 rgba(245,158,66,0.08)",

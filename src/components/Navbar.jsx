@@ -83,7 +83,7 @@ export default function Navbar() {
 					</SheetContent>
 				</Sheet>
 				<a
-					href="#schemes"
+					href="https://wa.me/917745932004"
 					className="hidden lg:inline-flex items-center justify-center px-6 py-2 rounded-full bg-slate-700 text-white font-semibold shadow-lg hover:bg-slate-800 transition border border-slate-700"
 					style={{ minWidth: 120 }}
 				>
