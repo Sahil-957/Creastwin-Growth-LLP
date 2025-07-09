@@ -21,11 +21,11 @@ Fast & Secure</span>{" "}
       </div>
       <div className="flex-1 flex items-center justify-center mb-10 md:mb-0">
         <Image
-          src="/globe.svg"
+          src="/vector.png"
           alt="Gold Loan Vector"
-          width={350}
-          height={350}
-          className="w-64 h-64 md:w-[22rem] md:h-[22rem] object-contain drop-shadow-xl"
+          width={420}
+          height={420}
+          className="w-80 h-80 md:w-[28rem] md:h-[28rem] object-contain drop-shadow-xl"
           priority
         />
       </div>
