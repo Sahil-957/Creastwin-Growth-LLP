@@ -42,7 +42,10 @@ const schemes = [
 
 export default function Schemes() {
 	return (
-		<section id="schemes" className="w-full max-w-7xl mx-auto py-16 px-4">
+		<section
+			id="schemes"
+			className="w-full max-w-7xl mx-auto py-16 px-4 scroll-mt-24 bg-gradient-to-br from-gray-50 to-gray-100"
+		>
 			<h2 className="text-4xl font-bold text-[#2d2d2d] text-center mb-2">
 				Loan Schemes
 			</h2>

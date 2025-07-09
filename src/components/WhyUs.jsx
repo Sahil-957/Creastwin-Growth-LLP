@@ -2,25 +2,25 @@ import Image from "next/image";
 
 const cards = [
 	{
-		icon: "/lock.svg",
+		icon: "/guarantee.png",
 		color: "#3b82f6",
 		title: "Safe & Secure",
 		desc: "Your gold is stored in world-class vaults with 24/7 surveillance and full insurance coverage.",
 	},
 	{
-		icon: "/eye.svg",
+		icon: "/transparency.png",
 		color: "#f59e42",
 		title: "Transparent",
 		desc: "No hidden charges, no surprises. Clear terms and honest rates.",
 	},
 	{
-		icon: "/clock.svg",
+		icon: "/15.png",
 		color: "#22c55e",
 		title: "15-Minute Process",
 		desc: "Walk in with your gold and walk out with cash in just 15 minutes.",
 	},
 	{
-		icon: "/percent.svg",
+		icon: "/chart.png",
 		color: "#ef4444",
 		title: "Low Interest",
 		desc: "Enjoy competitive interest rates and flexible repayment options.",
@@ -31,7 +31,7 @@ export default function WhyUs() {
 	return (
 		<section
 			id="why"
-			className="w-full max-w-7xl mx-auto py-16 px-4"
+			className="w-full max-w-7xl mx-auto py-16 px-4 scroll-mt-24"
 		>
 			<h2 className="text-4xl font-bold text-[#2d2d2d] text-center mb-2">
 				Why Choose Us?

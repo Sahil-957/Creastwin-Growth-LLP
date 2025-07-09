@@ -2,25 +2,25 @@ import Image from "next/image";
 
 const steps = [
 	{
-		icon: "/store.svg",
+		icon: "/jewelry-shop.png",
 		color: "#3b82f6", // blue
 		title: "Visit Jewellery Outlet",
 		desc: "Walk into any of the many Vriddhi jewellery outlets in your town to avail Gold loan between 9am to 8pm on all weekdays.",
 	},
 	{
-		icon: "/id-card.svg",
+		icon: "/kyc.png",
 		color: "#f59e42", // orange
 		title: "KYC, Documentation",
 		desc: "Understand the available loan schemes and complete a quick Aadhar based KYC and documentation process.",
 	},
 	{
-		icon: "/gold-bar.png",
+		icon: "/gold.png",
 		color: "#22c55e", // green
 		title: "Gold Assessment",
 		desc: "We will assess the gold ornaments and provide you with the loan amount on the spot in 10-minutes.",
 	},
 	{
-		icon: "/bank.svg",
+		icon: "/expenses.png",
 		color: "#ef4444", // red
 		title: "Quick Disbursement",
 		desc: "Loan disbursed in Bank account/cash on the spot with the help of Banking partner and available on Vriddhi app.",
@@ -29,7 +29,10 @@ const steps = [
 
 export default function HowItWorks() {
 	return (
-		<section id="how" className="w-full max-w-7xl mx-auto py-16 px-4">
+		<section
+			id="how"
+			className="w-full max-w-7xl mx-auto py-16 px-4 scroll-mt-24 bg-gradient-to-br from-gray-50 to-gray-100"
+		>
 			<h2 className="text-4xl font-bold text-[#2d2d2d] text-center mb-2">
 				Simple 15-minute Loan Process
 			</h2>
